@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <meta name="author" content="ciaz">
+    <title>Result| Sentimental Analysis</title>
+   
+    <!-- font icons -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/vendors/themify-icons/css/themify-icons.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/vendors/animate/animate.css') }}">
+
+    <!-- Bootstrap + FoodHut main styles -->
+	<link rel="stylesheet" href="{{ url_for('static',filename='styles/css/foodhut.css') }}">
+
+ </head>  
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+
+    <!-- header -->
+    <header id="home" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-3"> {{ result1 }} </h1>
+            <h2 class="display-4 mb-5">RESULT</h2>
+            <a class="btn btn-lg btn-primary" href="http://localhost:5000/index">TEST ANOTHER </a>
+        </div>
+    </header>
+
+   
+
+	<!-- core  -->
+    <script src="{{ url_for('static',filename='styles/vendors/jquery/jquery-3.4.1.js') }}"></script>
+    <script src="{{ url_for('static',filename='styles/vendors/bootstrap/bootstrap.bundle.js') }}"></script>
+
+    <!-- bootstrap affix -->
+    <script src="{{ url_for('static',filename='styles/vendors/bootstrap/bootstrap.affix.js') }}"></script>
+
+    <!-- wow.js -->
+    <script src="{{ url_for('static',filename='styles/vendors/wow/wow.js') }}"></script>
+    
+    <!-- google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- FoodHut js -->
+    <script src="{{ url_for('static',filename='styles/js/foodhut.js') }}"></script>
+
+</body>
+</html>
